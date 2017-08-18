@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060E02F91F4691CB00578F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060E02F81F4691CB00578F13 /* AppDelegate.swift */; };
+		060E02FB1F4691CB00578F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060E02FA1F4691CB00578F13 /* ViewController.swift */; };
+		060E02FE1F4691CB00578F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060E02FC1F4691CB00578F13 /* Main.storyboard */; };
+		060E03001F4691CB00578F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060E02FF1F4691CB00578F13 /* Assets.xcassets */; };
+		060E03031F4691CB00578F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060E03011F4691CB00578F13 /* LaunchScreen.storyboard */; };
+		060E030E1F4691CB00578F13 /* getTelORMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060E030D1F4691CB00578F13 /* getTelORMessageTests.swift */; };
+		060E03191F4691CB00578F13 /* getTelORMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060E03181F4691CB00578F13 /* getTelORMessageUITests.swift */; };
+		060E03281F46C3B400578F13 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060E03271F46C3B400578F13 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		060E030A1F4691CB00578F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060E02ED1F4691CB00578F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060E02F41F4691CB00578F13;
+			remoteInfo = getTelORMessage;
+		};
+		060E03151F4691CB00578F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 060E02ED1F4691CB00578F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 060E02F41F4691CB00578F13;
+			remoteInfo = getTelORMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060E02F51F4691CB00578F13 /* getTelORMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getTelORMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		060E02F81F4691CB00578F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		060E02FA1F4691CB00578F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		060E02FD1F4691CB00578F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		060E02FF1F4691CB00578F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		060E03021F4691CB00578F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		060E03041F4691CB00578F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060E03091F4691CB00578F13 /* getTelORMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getTelORMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		060E030D1F4691CB00578F13 /* getTelORMessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTelORMessageTests.swift; sourceTree = "<group>"; };
+		060E030F1F4691CB00578F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060E03141F4691CB00578F13 /* getTelORMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getTelORMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		060E03181F4691CB00578F13 /* getTelORMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTelORMessageUITests.swift; sourceTree = "<group>"; };
+		060E031A1F4691CB00578F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060E03271F46C3B400578F13 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		060E02F21F4691CB00578F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E03281F46C3B400578F13 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03061F4691CB00578F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03111F4691CB00578F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060E02EC1F4691CB00578F13 = {
+			isa = PBXGroup;
+			children = (
+				060E02F71F4691CB00578F13 /* getTelORMessage */,
+				060E030C1F4691CB00578F13 /* getTelORMessageTests */,
+				060E03171F4691CB00578F13 /* getTelORMessageUITests */,
+				060E02F61F4691CB00578F13 /* Products */,
+				060E03261F46C3B400578F13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		060E02F61F4691CB00578F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				060E02F51F4691CB00578F13 /* getTelORMessage.app */,
+				060E03091F4691CB00578F13 /* getTelORMessageTests.xctest */,
+				060E03141F4691CB00578F13 /* getTelORMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		060E02F71F4691CB00578F13 /* getTelORMessage */ = {
+			isa = PBXGroup;
+			children = (
+				060E02F81F4691CB00578F13 /* AppDelegate.swift */,
+				060E02FA1F4691CB00578F13 /* ViewController.swift */,
+				060E02FC1F4691CB00578F13 /* Main.storyboard */,
+				060E02FF1F4691CB00578F13 /* Assets.xcassets */,
+				060E03011F4691CB00578F13 /* LaunchScreen.storyboard */,
+				060E03041F4691CB00578F13 /* Info.plist */,
+			);
+			path = getTelORMessage;
+			sourceTree = "<group>";
+		};
+		060E030C1F4691CB00578F13 /* getTelORMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				060E030D1F4691CB00578F13 /* getTelORMessageTests.swift */,
+				060E030F1F4691CB00578F13 /* Info.plist */,
+			);
+			path = getTelORMessageTests;
+			sourceTree = "<group>";
+		};
+		060E03171F4691CB00578F13 /* getTelORMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				060E03181F4691CB00578F13 /* getTelORMessageUITests.swift */,
+				060E031A1F4691CB00578F13 /* Info.plist */,
+			);
+			path = getTelORMessageUITests;
+			sourceTree = "<group>";
+		};
+		060E03261F46C3B400578F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				060E03271F46C3B400578F13 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		060E02F41F4691CB00578F13 /* getTelORMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060E031D1F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessage" */;
+			buildPhases = (
+				060E02F11F4691CB00578F13 /* Sources */,
+				060E02F21F4691CB00578F13 /* Frameworks */,
+				060E02F31F4691CB00578F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getTelORMessage;
+			productName = getTelORMessage;
+			productReference = 060E02F51F4691CB00578F13 /* getTelORMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		060E03081F4691CB00578F13 /* getTelORMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060E03201F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessageTests" */;
+			buildPhases = (
+				060E03051F4691CB00578F13 /* Sources */,
+				060E03061F4691CB00578F13 /* Frameworks */,
+				060E03071F4691CB00578F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060E030B1F4691CB00578F13 /* PBXTargetDependency */,
+			);
+			name = getTelORMessageTests;
+			productName = getTelORMessageTests;
+			productReference = 060E03091F4691CB00578F13 /* getTelORMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		060E03131F4691CB00578F13 /* getTelORMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060E03231F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessageUITests" */;
+			buildPhases = (
+				060E03101F4691CB00578F13 /* Sources */,
+				060E03111F4691CB00578F13 /* Frameworks */,
+				060E03121F4691CB00578F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060E03161F4691CB00578F13 /* PBXTargetDependency */,
+			);
+			name = getTelORMessageUITests;
+			productName = getTelORMessageUITests;
+			productReference = 060E03141F4691CB00578F13 /* getTelORMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		060E02ED1F4691CB00578F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xie;
+				TargetAttributes = {
+					060E02F41F4691CB00578F13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2CW936H73A;
+						ProvisioningStyle = Automatic;
+					};
+					060E03081F4691CB00578F13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 060E02F41F4691CB00578F13;
+					};
+					060E03131F4691CB00578F13 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 060E02F41F4691CB00578F13;
+					};
+				};
+			};
+			buildConfigurationList = 060E02F01F4691CB00578F13 /* Build configuration list for PBXProject "getTelORMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 060E02EC1F4691CB00578F13;
+			productRefGroup = 060E02F61F4691CB00578F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				060E02F41F4691CB00578F13 /* getTelORMessage */,
+				060E03081F4691CB00578F13 /* getTelORMessageTests */,
+				060E03131F4691CB00578F13 /* getTelORMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		060E02F31F4691CB00578F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E03031F4691CB00578F13 /* LaunchScreen.storyboard in Resources */,
+				060E03001F4691CB00578F13 /* Assets.xcassets in Resources */,
+				060E02FE1F4691CB00578F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03071F4691CB00578F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03121F4691CB00578F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		060E02F11F4691CB00578F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E02FB1F4691CB00578F13 /* ViewController.swift in Sources */,
+				060E02F91F4691CB00578F13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03051F4691CB00578F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E030E1F4691CB00578F13 /* getTelORMessageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		060E03101F4691CB00578F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E03191F4691CB00578F13 /* getTelORMessageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060E030B1F4691CB00578F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060E02F41F4691CB00578F13 /* getTelORMessage */;
+			targetProxy = 060E030A1F4691CB00578F13 /* PBXContainerItemProxy */;
+		};
+		060E03161F4691CB00578F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 060E02F41F4691CB00578F13 /* getTelORMessage */;
+			targetProxy = 060E03151F4691CB00578F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		060E02FC1F4691CB00578F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060E02FD1F4691CB00578F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		060E03011F4691CB00578F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				060E03021F4691CB00578F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		060E031B1F4691CB00578F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		060E031C1F4691CB00578F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		060E031E1F4691CB00578F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = getTelORMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		060E031F1F4691CB00578F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = getTelORMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		060E03211F4691CB00578F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getTelORMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getTelORMessage.app/getTelORMessage";
+			};
+			name = Debug;
+		};
+		060E03221F4691CB00578F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = getTelORMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getTelORMessage.app/getTelORMessage";
+			};
+			name = Release;
+		};
+		060E03241F4691CB00578F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = getTelORMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = getTelORMessage;
+			};
+			name = Debug;
+		};
+		060E03251F4691CB00578F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = getTelORMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abadou.getTelORMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = getTelORMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060E02F01F4691CB00578F13 /* Build configuration list for PBXProject "getTelORMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060E031B1F4691CB00578F13 /* Debug */,
+				060E031C1F4691CB00578F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060E031D1F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060E031E1F4691CB00578F13 /* Debug */,
+				060E031F1F4691CB00578F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		060E03201F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060E03211F4691CB00578F13 /* Debug */,
+				060E03221F4691CB00578F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		060E03231F4691CB00578F13 /* Build configuration list for PBXNativeTarget "getTelORMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060E03241F4691CB00578F13 /* Debug */,
+				060E03251F4691CB00578F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 060E02ED1F4691CB00578F13 /* Project object */;
+}
